@@ -1,0 +1,39 @@
+name: recipe_book
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/loading.png
+    - assets/images/creamy garlic.jpg
+    - assets/images/Pork-Adobo.jpg
+    - assets/images/how-to-cook-ginataang-bangus.jpg
+    - assets/images/Easy-Chicken-Adobo-Recipe.jpg
+    - assets/images/sinigang-baboy-7.jpg
+    - assets/images/beef-caldereta.jpg
+    - assets/images/tofu sisig.jpg
+    - assets/images/Fried tilapia with lemons.jpg
+    - assets/icon/all.png
+    - assets/icon/pork.png
+    - assets/icon/beef.png
+    - assets/icon/chicken.png
+    - assets/icon/vegetable.png
+    - assets/icon/fish.png
